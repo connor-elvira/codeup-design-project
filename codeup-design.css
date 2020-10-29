@@ -66,15 +66,15 @@ h1, h3{
     background-color: var(--bt-design);
 }
 
-.develop-btn {
+.develop-btn, .develop-badge {
     background-color: var(--bt-develop);
 }
 
-.support-btn {
+.support-btn, .support-badge {
     background-color: var(--bt-support);
 }
 
-.host-btn {
+.host-btn, .host-badge {
     background-color: var(--bt-host);
 }
 
@@ -87,10 +87,10 @@ h6 {
 }
 
 .link-badge {
-    border-radius: 18px;
     width: 18px;
     height: 18px;
     color: black;
     font-family: "Anton", "Times", sans-serif;
     font-size: 10px;
 }
+
