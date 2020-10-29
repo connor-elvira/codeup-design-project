@@ -54,3 +54,30 @@ nav .nav-item {
 h1, h3{
     font-family: "Anton", "Times", sans-serif;
 }
+
+.big-buttons {
+    border: .4em solid white;
+    border-radius: 105px;
+    width: 105px;
+    height: 105px;
+}
+
+.design-btn {
+    background-color: var(--bt-design);
+}
+
+.develop-btn {
+    background-color: var(--bt-develop);
+}
+
+.support-btn {
+    background-color: var(--bt-support);
+}
+
+.host-btn {
+    background-color: var(--bt-host);
+}
+
+button {
+    font-family: "Anton", "Times", sans-serif;
+}
