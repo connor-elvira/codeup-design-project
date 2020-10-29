@@ -95,6 +95,11 @@ h6 {
 }
 
 .card-title {
-    width:
+    width: 100px;
+}
+
+img {
+    border: .5em solid var(--border-picture);
+    border-radius: 10px;
 }
 
