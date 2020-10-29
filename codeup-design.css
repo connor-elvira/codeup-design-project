@@ -62,7 +62,7 @@ h1, h3{
     height: 105px;
 }
 
-.design-btn {
+.design-btn, .design-badge {
     background-color: var(--bt-design);
 }
 
@@ -80,4 +80,17 @@ h1, h3{
 
 button {
     font-family: "Anton", "Times", sans-serif;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.link-badge {
+    border-radius: 18px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    font-family: "Anton", "Times", sans-serif;
+    font-size: 10px;
 }
