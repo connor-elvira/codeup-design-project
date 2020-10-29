@@ -98,9 +98,10 @@ h6 {
     width: 100px;
 }
 
-img {
+img:not(.nav-image) {
     border: .5em solid var(--border-picture);
     border-radius: 10px;
+
 }
 
 .card-body {
