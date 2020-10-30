@@ -186,6 +186,7 @@ img:not(.nav-image) {
 
 
 @media screen and (min-width: 992px) {
+
     hr {
         margin-left: 10px;
         margin-right: 140px;
@@ -216,4 +217,5 @@ img:not(.nav-image) {
         max-height: 70px;
         max-width: 70px;
     }
+
 }
