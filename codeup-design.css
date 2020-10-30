@@ -218,4 +218,7 @@ img:not(.nav-image) {
         max-width: 70px;
     }
 
+    .the-last {
+        margin-right: 125px;
+    }
 }
