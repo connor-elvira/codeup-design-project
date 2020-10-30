@@ -47,6 +47,10 @@ nav .nav-item {
     bottom: 6px;
 }
 
+.btn-container {
+    max-width: 290px;
+}
+
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
@@ -122,6 +126,9 @@ img:not(.nav-image) {
     padding-right: 20px;
 }
 
+hr {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -148,5 +155,9 @@ img:not(.nav-image) {
     hr {
         margin-left: 172px;
         margin-right: 140px;
+    }
+
+    .btn-container {
+        max-width: none;
     }
 }
