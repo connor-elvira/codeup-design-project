@@ -47,10 +47,6 @@ nav .nav-item {
     bottom: 6px;
 }
 
-.btn-container {
-    max-width: 290px;
-}
-
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
@@ -88,6 +84,10 @@ h1, h3{
     background-color: var(--bt-host);
 }
 
+.btn-container {
+    max-width: 290px;
+}
+
 button {
     font-family: "Anton", "Times", sans-serif;
 }
@@ -121,14 +121,15 @@ img:not(.nav-image) {
     border-radius: 10px;
     width: auto;
 }
+
 .card-body {
     padding-left: 12px;
     padding-right: 20px;
 }
 
-hr {
-    display: none;
-}
+/*hr {*/
+/*    display: none;*/
+/*}*/
 
 @media screen and (min-width: 768px) {
 
