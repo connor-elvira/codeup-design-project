@@ -112,4 +112,23 @@ img:not(.nav-image) {
 
 @media screen and (min-width: 768px) {
 
+    .design-btn {
+        position: relative;
+        left: 105px;
+    }
+
+    .develop-btn {
+        position: relative;
+        left: 43px;
+    }
+    .support-btn {
+        position: relative;
+        right: 21px;
+    }
+
+    .host-btn {
+        position: relative;
+        right: 84px;
+    }
+
 }
