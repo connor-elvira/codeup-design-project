@@ -221,4 +221,24 @@ img:not(.nav-image) {
     .the-last {
         margin-right: 125px;
     }
+
+    .card1, .card2, .card3, .card4 {
+        transform: scale(.8, .8);
+    }
+
+    /*.link-list {*/
+    /*    transform: scale(.8, .8);*/
+    /*}*/
+
+    .list1 {
+        padding: 28px 0 0 0;
+    }
+
+    .list2 {
+        padding: 0;
+    }
+
+    .list3 {
+        padding: 0;
+    }
 }
