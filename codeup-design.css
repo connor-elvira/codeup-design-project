@@ -131,9 +131,29 @@ img:not(.nav-image) {
         right: 84px;
     }
 
-}
+    hr {
+        margin-left: 172px;
+        margin-right: 140px;
+    }
 
-hr {
-    margin-left: 172px;
-    margin-right: 140px;
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        flex-basis: 50%;
+    }
+
+    .card2 {
+        flex-basis: 50%;
+    }
+
+    .card3 {
+        flex-basis: 50%;
+    }
+
+    .card4 {
+        flex-basis: 50%;
+    }
 }
