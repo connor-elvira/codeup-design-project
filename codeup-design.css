@@ -132,3 +132,8 @@ img:not(.nav-image) {
     }
 
 }
+
+hr {
+    margin-left: 172px;
+    margin-right: 140px;
+}
