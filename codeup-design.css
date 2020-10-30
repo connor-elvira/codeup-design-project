@@ -173,4 +173,10 @@ img:not(.nav-image) {
         margin-left: 10px;
         margin-right: 140px;
     }
+    .btn-container {
+        position: relative;
+        padding-left: 120px;
+        padding-right: 130px;
+        right: 10px;
+    }
 }
