@@ -11,6 +11,7 @@
 body {
     font-family: 'Abel', sans-serif;
     background: #f0f0f0;
+    max-width: 800px;
 }
 
 .wrapper {
@@ -101,6 +102,8 @@ h6 {
 img:not(.nav-image) {
     border: .5em solid var(--border-picture);
     border-radius: 10px;
+    width: 300px;
+    height: 205px;
 
 }
 
@@ -136,24 +139,24 @@ img:not(.nav-image) {
         margin-right: 140px;
     }
 
-    .card-deck {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /*.card-deck {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 
-    .card1 {
-        flex-basis: 50%;
-    }
+    /*.card1 {*/
+    /*    width:10em;*/
+    /*}*/
 
-    .card2 {
-        flex-basis: 50%;
-    }
+    /*.card2 {*/
+    /*    width: 50%;*/
+    /*}*/
 
-    .card3 {
-        flex-basis: 50%;
-    }
+    /*.card3 {*/
+    /*    flex-basis: 50%;*/
+    /*}*/
 
-    .card4 {
-        flex-basis: 50%;
-    }
+    /*.card4 {*/
+    /*    flex-basis: 50%;*/
+    /*}*/
 }
