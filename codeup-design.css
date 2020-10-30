@@ -134,6 +134,7 @@ img:not(.nav-image) {
         position: relative;
         left: 43px;
     }
+
     .support-btn {
         position: relative;
         right: 21px;
@@ -148,3 +149,4 @@ img:not(.nav-image) {
         margin-left: 172px;
         margin-right: 140px;
     }
+}
