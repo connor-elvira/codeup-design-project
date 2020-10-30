@@ -57,8 +57,24 @@ nav .nav-item {
     }
 }
 
-h1, h3{
+h1, h3, h5{
     font-family: "Anton", "Times", sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size:28px;
 }
 
 .big-buttons {
@@ -180,5 +196,24 @@ img:not(.nav-image) {
         padding-right: 130px;
         right: 10px;
     }
+    #aside-image1 {
+        border: 5px solid var(--border-picture);
+        border-radius: 2px;
+        max-height: 70px;
+        max-width: 70px;
+    }
 
+    #aside-image2 {
+        border: 5px solid var(--border-picture);
+        border-radius: 2px;
+        max-height: 70px;
+        max-width: 70px;
+    }
+
+    #aside-image3 {
+        border: 5px solid var(--border-picture);
+        border-radius: 2px;
+        max-height: 70px;
+        max-width: 70px;
+    }
 }
