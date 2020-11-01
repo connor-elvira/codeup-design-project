@@ -137,7 +137,7 @@ img:not(.nav-image) {
 #xs-image {
     border: .5em solid var(--border-picture);
     border-radius: 10px;
-    width: auto;
+    max-width: 300px;
 }
 
 .card-body {
