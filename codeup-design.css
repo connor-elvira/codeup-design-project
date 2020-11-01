@@ -199,6 +199,11 @@ img:not(.nav-image) {
         padding-right: 130px;
         right: 10px;
     }
+
+    .card-title {
+        background-color: #00ABA9;
+    }
+
     #aside-image1 {
         border: 5px solid var(--border-picture);
         border-radius: 2px;
