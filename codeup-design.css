@@ -5,6 +5,7 @@
     --bt-host: #00ABA9;
     --bg-main: #F0F0F0;
     --border-picture: #E6E6E6;
+    --twitter-color: #1DA1F3''
 }
 
 html, body {
@@ -219,16 +220,12 @@ img:not(.nav-image) {
     }
 
     .the-last {
-        margin-right: 125px;
+        margin-right: 235px;
     }
 
     .card1, .card2, .card3, .card4 {
         transform: scale(.8, .8);
     }
-
-    /*.link-list {*/
-    /*    transform: scale(.8, .8);*/
-    /*}*/
 
     .list1 {
         padding: 28px 0 0 0;
@@ -241,4 +238,14 @@ img:not(.nav-image) {
     .list3 {
         padding: 0;
     }
+
+    .last-tweet {
+        font-size: 16px;
+    }
+
+    i {
+        font-size: 20px;
+        color: var(--twitter-color);
+    }
+
 }
