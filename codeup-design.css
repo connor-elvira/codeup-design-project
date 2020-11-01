@@ -5,7 +5,7 @@
     --bt-host: #00ABA9;
     --bg-main: #F0F0F0;
     --border-picture: #E6E6E6;
-    --twitter-color: #1DA1F3''
+    --twitter-color: #1DA1F3;
 }
 
 html, body {
@@ -224,7 +224,11 @@ img:not(.nav-image) {
     }
 
     .card1, .card2, .card3, .card4 {
-        transform: scale(.8, .8);
+        transform: scale(.85, .85);
+    }
+
+    .aside-column {
+        transform: scale(.85, .85);
     }
 
     .list1 {
@@ -243,7 +247,7 @@ img:not(.nav-image) {
         font-size: 16px;
     }
 
-    i {
+    #twitter {
         font-size: 20px;
         color: var(--twitter-color);
     }
