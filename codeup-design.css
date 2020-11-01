@@ -20,42 +20,156 @@ body {
 
 }
 
-.wrapper {
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
-}
+/*.wrapper {*/
+/*    max-width: 1100px;*/
+/*    width: 100%;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-.brand-name {font-size: 1.75em;}
+/*.brand-name {font-size: 1.75em;}*/
 
-nav a {
-    font-size: .75em;
-    color: black;
-}
+/*nav a {*/
+/*    font-size: .75em;*/
+/*    color: black;*/
+/*}*/
 
-.nav-background {
+/*.nav-background {*/
+/*    position: absolute;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    height: 59px;*/
+/*    width: 100%;*/
+/*    top: 37px;*/
+/*    z-index: -1000;*/
+/*}*/
+
+/*nav .nav-item {*/
+/*    position: relative;*/
+/*    bottom: 6px;*/
+/*}*/
+
+/*@media screen and (min-width: 992px) {*/
+/*    .sub-title {text-align: left;}*/
+/*    hr {width: 100%;}*/
+
+/*    .brand-name  {*/
+/*        position: relative;*/
+/*        top: 5px;*/
+/*    }*/
+/*}*/
+
+.bg-bar {
+    height: 55px;
     position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 59px;
-    width: 100%;
     top: 37px;
-    z-index: -1000;
+    background-color: white;
+
 }
 
-nav .nav-item {
+#design-logo {
+    width: 105px;
+    height:105px;
     position: relative;
-    bottom: 6px;
+    border: none;
+    z-index: 1;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+#codeup-nav, .link-c .nav-link  {
+    font-family: "Abel", sans-serif;
+}
+
+.nav-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-c .nav-link {
+    color: black;
+    transition: transform 1s;
+}
+
+.link-c .nav-link:hover {
+    color: #6c91d4;
+    transform: rotate(360deg);
+    transform-origin: 50% 2%;
+
+}
+
+.link-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 25%;
+    margin: 0;
+}
+
+.link2 {
+    display: flex;
+    flex-basis: 25%;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .l-bar {
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        top: 37px;
+        background-color: white;
+        display: flex;
+    }
+
+    .link-c {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
 }
 
 @media screen and (min-width: 992px) {
-    .sub-title {text-align: left;}
-    hr {width: 100%;}
 
-    .brand-name  {
-        position: relative;
-        top: 5px;
+    .link-c {
+        justify-content: flex-end;
     }
+
+    .logo-a {
+        align-self: flex-start;
+    }
+
+    .link1 {
+        justify-content: flex-end;
+    }
+
+    .link2 {
+        justify-content: flex-end;
+        flex-basis:5%;
+    }
+
+    .nav-cont {
+        display: flex;
+        align-items: center;
+    }
+
+    #codeup-nav {
+        position: relative;
+        z-index: 1;
+        margin: 8px 0;
+    }
+
+
 }
 
 h1, h3, h5{
