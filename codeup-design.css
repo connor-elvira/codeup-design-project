@@ -200,16 +200,13 @@ img:not(.nav-image) {
         right: 10px;
     }
 
-    .card-title {
-        background-color: #00ABA9;
-    }
-
     #aside-image1 {
         border: 5px solid var(--border-picture);
         border-radius: 2px;
         max-height: 70px;
         max-width: 70px;
     }
+
 
     #aside-image2 {
         border: 5px solid var(--border-picture);
@@ -258,4 +255,14 @@ img:not(.nav-image) {
         color: var(--twitter-color);
     }
 
+    .badge-row {
+        position: relative;
+        left: 35px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .badge-row {
+        left: -10px;
+    }
 }
