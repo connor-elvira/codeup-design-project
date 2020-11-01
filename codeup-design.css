@@ -97,7 +97,6 @@ body {
     color: #6c91d4;
     transform: rotate(360deg);
     transform-origin: 50% 2%;
-
 }
 
 .link-c {
@@ -337,7 +336,7 @@ img:not(.nav-image) {
     }
 
     .the-last {
-        margin-right: 235px;
+        margin-right: 230px;
     }
 
     .card1, .card2, .card3, .card4 {
@@ -378,5 +377,9 @@ img:not(.nav-image) {
 @media screen and (min-width: 1200px) {
     .badge-row {
         left: -10px;
+    }
+
+    .the-last {
+        margin-right: 280px;
     }
 }
